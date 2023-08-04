@@ -1,4 +1,3 @@
-
 'use client'
 
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
@@ -63,7 +62,6 @@ setOpen(false)
 
 router.push(`/${store.value}`)
 
-router.refresh()
 
 
 }
@@ -81,6 +79,7 @@ return (
           role="combobox"
           aria-expanded={open}
           aria-label="Select a store"
+          aria-controls="radix-:R1mcq:"
           className={cn("w-[200px] justify-between", className)}
         >
           <StoreIcon className="mr-2 h-4 w-4" />
