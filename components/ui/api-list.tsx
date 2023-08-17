@@ -30,7 +30,7 @@ const origin = useOrigin()
 
 
 
-const baseUrl = `${origin}/ap/${params.storeId}`
+const baseUrl = `${origin}/api/${params.storeId}`
 
 
 
