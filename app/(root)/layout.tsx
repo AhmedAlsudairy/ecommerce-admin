@@ -41,7 +41,11 @@ redirect(`/${store.id}`)
 }
 
 
-
+if (!store) {
+  
+    redirect('/')   
+   
+   }
 
 return (
 
